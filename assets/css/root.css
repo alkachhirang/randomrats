@@ -68,7 +68,7 @@ font-family: 'IBM Plex Mono', monospace;
 .clr_white:hover{
     color:#f61529 !important;
 }
-@media(min-width:768) and (max-width:992px) {
+@media(min-width:768px) and (max-width:992px) {
     :root {
             /* font-size  */
             --fs-sm: 14px;
@@ -77,7 +77,7 @@ font-family: 'IBM Plex Mono', monospace;
             --fs-2md: 20px;
             --fs-lg: 20px;
             --fs-xl: 37.058px;
-            --fs-xxl:75px;
+            --fs-xxl:75px !important;
     }
 }
 @media(min-width:576px) and (max-width:768px) {
@@ -113,7 +113,7 @@ font-family: 'IBM Plex Mono', monospace;
             --fs-2md: 20px;
             --fs-lg:28px !important;
             --fs-xl:30px ;
-            --fs-xxl:35px;
+            --fs-xxl:85px;
     }
 }
 
