@@ -1,0 +1,124 @@
+:root{
+    /* font-size  */
+  --fs-sm:14px;
+  --fs-2sm:15px;
+  --fs-md:16px;
+  --fs-2md:20px;
+  --fs-lg:28px;
+  --fs-xl:37.058px;
+  --fs-xxl:85px;
+
+  /* color */
+  --bg-black:#000000;
+  --text-white:#ffffff;
+  --text-red:#f61529;
+
+    /* font-weight */
+    --fw-400:400;
+    --fw-500:500;
+}
+.ff_press-start{
+font-family: 'Press Start 2P', cursive;
+}
+
+.ff_IBM-Plex-mono{
+font-family: 'IBM Plex Mono', monospace;
+}
+
+.fw_400{
+    font-weight:400;
+}
+.fw_500{
+    font-weight:500;
+}
+
+.fs_14{
+    font-size: var(--fs-sm);
+}
+.fs_15{
+    font-size: var(--fs-2sm);
+}
+.fs_16{
+    font-size: var(--fs-md);
+}
+.fs_20{
+    font-size: var(--fs-2md);
+}
+.fs_28{
+    font-size: var(--fs-lg);
+}
+.fs_37{
+    font-size: var(--fs-xl);
+}
+.fs_85{
+    font-size: var(--fs-xxl);
+}
+.bg_black{
+    background-color:var(--bg-black) ;
+}
+.text_white{
+    color: var(--text-white);
+}
+.text_red{
+    color: var(--text-red);
+}
+.clr_white{
+    color: #ffffff;
+}
+.clr_white:hover{
+    color:#f61529 !important;
+}
+@media(min-width:768) and (max-width:992px) {
+    :root {
+            /* font-size  */
+            --fs-sm: 14px;
+            --fs-2sm: 15px;
+            --fs-md: 16px;
+            --fs-2md: 20px;
+            --fs-lg: 20px;
+            --fs-xl: 37.058px;
+            --fs-xxl:75px;
+    }
+}
+@media(min-width:576px) and (max-width:768px) {
+    :root {
+            /* font-size  */
+            --fs-sm: 14px;
+            --fs-2sm: 15px;
+            --fs-md: 16px;
+            --fs-2md: 20px;
+            --fs-lg:16px !important;
+            --fs-xl: 37.058px;
+            --fs-xxl:55px;
+    }
+}
+@media (max-width:576px) {
+    :root {
+            /* font-size  */
+            --fs-sm: 14px;
+            --fs-2sm: 15px;
+            --fs-md: 16px;
+            --fs-2md: 20px;
+            --fs-lg:13px !important;
+            --fs-xl:30px ;
+            --fs-xxl:35px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px) {
+    :root {
+            /* font-size  */
+            --fs-sm: 14px;
+            --fs-2sm: 15px;
+            --fs-md: 16px;
+            --fs-2md: 20px;
+            --fs-lg:28px !important;
+            --fs-xl:30px ;
+            --fs-xxl:35px;
+    }
+}
+
+
+
+
+
+
